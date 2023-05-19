@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body>,
     <form action="" id="MeuForm">
         <label for="pNome" title="Informe o nome">
             Entre com o nome ....:
@@ -21,9 +21,23 @@
         <br>
         <input type="button" value="Enviar" onclick="MostrarNome()"/>
     </form>
+    <br><hr><br>
     <form action="" id="MyCalc">
-        <input type="number">
-
+        <label for="pv1" title="Informe o valor 1">
+            Entre com o 1º Valor...: 
+        </label>
+        <input type="number" id="pValor1"/>
+        <br>
+        <label for="pv2" title="Informe o valor 2">
+            Entre com o 2º Valor...: 
+        </label>
+        <input type="number" id="pValor2"/>
+        <br>
+        <br>
+        <input type="button" value="Somar" onclick="somar()"/>
+        <input type="button" value="Subtração" onclick="sub()"/>
+        <input type="button" value="Multiplicar" onclick="mult()"/>
+        <input type="button" value="Dividir" onclick="div()"/>
     </form>
 </body>
 <script src="script.js"></script>
