@@ -1,7 +1,7 @@
 let pnome;
 let psobrenome;
 let number;
-let email1;
+let email;
 let password;
 let password1;
 
@@ -14,7 +14,7 @@ function enviar() {
     password = document.getElementById("password").value;
     password1 = document.getElementById("password1").value;
 
-    if(pnome==""||psobrenome==""||number==""||email==""||password==""||password1==""){
+    if(pnome==" "||psobrenome==" "||number==" "||email==" "||password==" "||password1==" "){
         alert("Preencha todas as informações")
     }
     else if(password==password1){
